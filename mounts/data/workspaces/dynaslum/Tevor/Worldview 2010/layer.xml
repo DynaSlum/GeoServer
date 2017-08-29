@@ -1,0 +1,15 @@
+<layer>
+  <name>Worldview 2010</name>
+  <id>LayerInfoImpl-4f10f580:15e2da70052:-7fa4</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-4f10f580:15e2da70052:-7edb</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-4f10f580:15e2da70052:-7fa5</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

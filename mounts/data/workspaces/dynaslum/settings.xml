@@ -1,0 +1,23 @@
+<settings>
+  <id>SettingsInfoImpl-4f10f580:15e2da70052:-7fe0</id>
+  <workspace>
+    <id>WorkspaceInfoImpl-4f10f580:15e2da70052:-7fe4</id>
+    <name>dynaslum</name>
+  </workspace>
+  <contact>
+    <id>contact</id>
+  </contact>
+  <charset>UTF-8</charset>
+  <numDecimals>4</numDecimals>
+  <verbose>true</verbose>
+  <verboseExceptions>false</verboseExceptions>
+  <metadata>
+    <map>
+      <entry>
+        <string>quietOnNotFound</string>
+        <boolean>false</boolean>
+      </entry>
+    </map>
+  </metadata>
+  <localWorkspaceIncludesPrefix>false</localWorkspaceIncludesPrefix>
+</settings>
