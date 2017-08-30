@@ -1,9 +1,10 @@
 # GeoServer
 
-## Install Git
+## Install Git and clone this repo
 ```
 sudo apt-get update
 sudo apt-get install git
+git clone https://github.com/DynaSlum/GeoServer.git
 ```
 
 ## Install docker
