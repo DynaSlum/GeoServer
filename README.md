@@ -24,6 +24,9 @@ sudo apt-get update
 sudo apt-get install docker-ce
 ```
 
+## Add user to docker group (so no sudo is needed)
+sudo usermod -a -G docker $USER
+
 ## Build and run
 ```
 docker build -t nlesc/geoserver
