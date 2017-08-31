@@ -29,7 +29,7 @@ sudo usermod -a -G docker $USER
 
 ## Build and run
 ```
-docker build -t nlesc/geoserver
+docker build --build-arg ORACLE_JDK=true -t nlesc/geoserver
 
 docker run --name "postgis" -d -t kartoza/postgis:9.4-2.1
 docker run --name "geoserver" --link postgis:postgis -p 8080:8080 -d -v ~/GeoServer/mounts/data/:/opt/geoserver/data_dir/ -v /satellite/:/data/satellite -t nlesc/geoserver
