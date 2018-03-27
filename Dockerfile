@@ -119,6 +119,7 @@ RUN if ls /tmp/resources/overlays/* > /dev/null 2>&1; then \
     fi;
 
 COPY tomcat-users.xml $CATALINA_HOME/conf/
+COPY manager.xml $CATALINA_HOME/conf/Catalina/localhost/
 
 # Optionally remove Tomcat manager, docs, and examples
 ARG TOMCAT_EXTRAS=true
